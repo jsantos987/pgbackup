@@ -20,7 +20,6 @@ def test_storing_file_locally():
 		assert f.read() == "Testing"
 
 def test_storage_file_on_s3(mocker, infile):
-
 	"""
 	Writes content form one file-like to s2
 	"""
